@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.header {
+    background-color: #232F3E;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-btn {
+    background-color: #FF9900;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cart-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-page {
+    display: flex;
+    margin: 20px;
+}
+
+.product-gallery {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 500px;
+    margin-top:69px;
+    margin-bottom: 10px;
+    transform:translateX(50px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.product-details {
+    flex: 2;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+    height: 400px;
+    margin-bottom: 800px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.product-price {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #555;
+}
+
+.discount {
+    color: #B12704;
+    font-weight: bold;
+}
+
+.new-price {
+    color: #B12704;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.prime-info {
+    color: #FF9900;
+    margin-bottom: 10px;
+}
+
+.prime-btn {
+    background-color: #FF9900;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.delivery-info {
+    margin-bottom: 20px;
+}
+
+.buy-btn {
+    background-color: #ffffff;
+    border-color: #00825D;
+    border-style: solid;
+    padding: 10px 20px;
+    color: #00825D;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.buy-btn-buy {
+    background-color: #00825D;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.additional-info {
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+}
+
+.additional-info h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.additional-info p {
+    padding: 5px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #232F3E;
+    color: white;
+    padding: 20px;
+}
+
+.tenic-infos {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+}
+
+.tenic-infos-sinopse {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tenic-infos-sinopse h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
